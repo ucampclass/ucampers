@@ -167,7 +167,7 @@
 
 .cont-form{
     width: 40%;
-    height: 70%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +176,7 @@
 
 .formulario{
     width: 80%;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -186,7 +186,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 3rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .formulario input{
@@ -196,6 +196,10 @@
     text-align: center;
     border-radius: 5px;
     border-style: none;
+}
+
+#mensaje{
+    height: 8rem;
 }
 
 #btn{
