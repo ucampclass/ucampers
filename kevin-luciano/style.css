@@ -8,3 +8,8 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.header_nav{
+    background-color: #4e4e53;
+    height: 70px;
+}
