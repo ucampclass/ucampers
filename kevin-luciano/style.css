@@ -12,25 +12,29 @@ body{
 .header_nav{
     
     background-color: #414141;
-    height: 70px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
     
 }
 
 .button_menu{
+    color: white;
     text-decoration: none;
     border: 1px solid #d0d0d0;
 }
 
 .card__container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
 .card {
-    width: 30%;
+    /* width: 30%; */
     display: inline-block;
     margin-right: 20px;
-    border: 1px solid #888585;
   }
   
   .form-group {
