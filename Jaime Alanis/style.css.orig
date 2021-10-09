@@ -42,6 +42,15 @@ a{
 .inicio{
     background-color: gray;
 }
+<<<<<<< HEAD
+=======
+.nosotros{
+    background-color: gray;
+}
+.contacto{
+    background-color: gray;
+}
+>>>>>>> 50e843875ab25ed6714c14d8a71c583573f9e9f5
 main{
     background-image:url(./img/goku.jpg);
     width: 100vw;
@@ -55,12 +64,9 @@ h1{
    font-size:  3rem;
     margin-left: 25%;
     color: rgb(58, 57, 57);
+<<<<<<< HEAD
 }
-}
-h1{
-   font-size:  3rem;
-    margin-left: 25%;
-    color: rgb(58, 57, 57);
+=======
 }
 
 .main-nosotros{
@@ -108,3 +114,4 @@ align-items: center;
  .c3{
     background-image: url(./img/goku4.jpg);
  }
+>>>>>>> 50e843875ab25ed6714c14d8a71c583573f9e9f5
