@@ -10,10 +10,13 @@ body{
 }
 
 .header_nav{
-    background-color: #4e4e53;
+    
+    background-color: #414141;
     height: 70px;
+    
 }
 
 .button_menu{
+    text-decoration: none;
     border: 1px solid #d0d0d0;
 }
