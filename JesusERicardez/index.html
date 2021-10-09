@@ -49,17 +49,17 @@
     <section class="hoja3">
         <form name="contacto"  method="post" action="">
             <label>Nombre:</label>
-            <input type="text" name="nombre">
-
+            <input type="text" name="nombre" maxlength="30" required>
+<br>
             <label>Correo:</label>
-            <input type="email" name="correo">
-
+            <input type="email" name="correo" required>
+<br>
             <label>Asunto:</label>
-            <input type="text" name="asunto">
-
+            <input type="text" name="asunto" maxlength="50" required>
+<br>
             <label>Mensaje:</label>
             <textarea name="Mensaje" rows="6" cols="25"></textarea>
-            
+<br>            
         </form>    
     </section>
   </body>
