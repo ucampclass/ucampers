@@ -3,21 +3,11 @@
   padding: 0;
 }
 
-.hoja1 {
-  width: 100%vw;
-  height: 650px;
-  background-image: url(../JesusERicardez/img/Imagen1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .header__nav {
   background: cornflowerblue;
   width: 1400px;
   height: 20px;
   padding: 1%;
-  position: fixed;
 }
 
 .header_container {
@@ -29,9 +19,18 @@
   margin: 5px;
 }
 
+.hoja1 {
+  width: 100%vw;
+  height: 625px;
+  background-image: url(../JesusERicardez/img/Imagen1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hoja2 {
   width: 100%vw;
-  height: 700px;
+  height: 600px;
 }
 
 .texto {
@@ -46,7 +45,29 @@
   display: flex;
   justify-content: space-around;
 }
+
 .hoja3 {
-  width: 100%vw;
-  height: 650px;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-contacto {
+  width: 30%;
+  height: 75%;
+  border: 3px black solid;
+}
+
+.fcontacto {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contenedor-texto {
+  margin: 20px 0px 20px;
 }

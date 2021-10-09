@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../JesusERicardez/styles.css">
 </head>
 <body>
     <header>
-
-    </header>
-
-    <main class="main-contacto">
-       
-        <section class="contenedor-contacto">
-            
-            <div class="parte3">
-                <h1>FORMULARIO DE CONTACTO</h1>
-                <input class="contenedor-texto" type="text" placeholder="   Nombre">
-                <input class="contenedor-texto" type="email" placeholder="   Correo">
-                <input class="contenedor-texto" type="text" placeholder="   Asunto">
-                <input class="contenedor-texto mensaje" type="text" placeholder="   Mensaje">
-                <button class="boton-generico">Comentar</button>
+        <nav class="header__nav">
+          <div class="header_container">
+            <div class="link">
+              <a href="../JesusERicardez/index.html" class="header__links">Inicio</a>
+              <a href="../JesusERicardez/nosotros.html" class="header__links">Nosotros</a>
+              <a href="../JesusERicardez/contacto.html" class="header__links">Contacto</a>
             </div>
+          <div>
+        </nav>
+      </header>
+
+    <section class="hoja3">
+       
+        <div class="contenedor-contacto">
+            
+            <form class="fcontacto" name="fcontacto" action="" method="post">
+                <input class="contenedor-texto" type="text" name="nombre" placeholder="   Nombre" required>
+                <input class="contenedor-texto" type="email" name="correo" placeholder="   Correo" required>
+                <input class="contenedor-texto" type="text" name="asunto" placeholder="   Asunto" required>
+                <textarea class="contenedor-texto" name="mensaje" rows="6" cols="25" placeholder="   Mensaje" required></textarea>
+                <button class="contenedor-texto" type="button">Enviar</button>
+            </form>
            
 
-        </section>
-</main>
+        </div>
+    </section>
 </body>
 </html>
