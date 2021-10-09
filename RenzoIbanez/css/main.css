@@ -1,0 +1,41 @@
+.main-container {
+    background: rgb(3,3,14);
+    background: linear-gradient(0deg, rgba(3,3,14,1) 0%, rgba(34,193,195,1) 100%);
+    height: 100vh;
+    text-align: justify;
+}
+.index-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.main-container-nosotros{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+.main-article {
+    width: 30%;
+    margin: 2.5em;
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(4, 7, 10);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(6, 9, 12);
+    box-shadow: 10px 10px 5px 0px rgb(5, 7, 8);
+    border: 2px solid black;
+}
+.main-header {
+    width: 100%;
+}
+.main-image {
+    width: 100%;
+}
+.main-text {
+    text-align: left !important;
+    color: white;
+    margin: 1em;
+}
+.main-title {
+    font-weight: bold;
+    color: white;
+}
