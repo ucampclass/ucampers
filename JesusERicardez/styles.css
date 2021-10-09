@@ -17,6 +17,19 @@
 .header__links {
   text-decoration: none;
   margin: 5px;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+.header__links:hover {
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  background-color: #1e90ff;
+}
+
+.bselec {
+  background-color: #1e90ff;
 }
 
 .hoja1 {
