@@ -36,9 +36,11 @@ body {
   text-decoration: none;
 }
 .jaime-alanis{
-  background-color: rgb(2, 2, 53);
-  color: white;
+  background-image: url(./Jaime_Alanis/img/goku.jpg);
+  background-size: cover;
+  background-position-y: center;
+  color:  rgb(2, 2, 53);
 }
 .jaime-alanis a{
-  color: white;
+  color: rgb(2, 2, 53);
 }

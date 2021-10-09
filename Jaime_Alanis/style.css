@@ -55,7 +55,6 @@ a {
     background-color: gray;
 }
 
-
 main{
     background-image:url(./img/goku.jpg);
     width: 100vw;
@@ -155,8 +154,6 @@ h1{
     align-items: center;
 }
 
-
-
 .parte3 {
     width: 100%;
     display: flex;
@@ -174,12 +171,12 @@ h1{
 .contenedor-texto{
     width: 55%;
     height: 25px;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 .mensaje{
     width: 55%;
     height: 100px;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .boton-generico {
