@@ -2,3 +2,39 @@
   margin: 0;
   padding: 0;
 }
+
+.hoja1 {
+  width: 100%vw;
+  height: 650px;
+  background-image: url(../JesusERicardez/img/Imagen1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__nav {
+  background: cornflowerblue;
+  height: 20px;
+  padding: 1%;
+}
+
+.header_container {
+  float: right;
+}
+
+.header__links {
+  text-decoration: none;
+  margin: 5px;
+}
+
+.hoja2 {
+  width: 100%vw;
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hoja3 {
+  width: 100%vw;
+  height: 650px;
+}
