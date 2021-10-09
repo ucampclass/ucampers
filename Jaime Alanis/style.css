@@ -55,8 +55,9 @@ a {
     background-color: gray;
 }
 
-main {
-    background-image: url(./img/goku.jpg);
+
+main{
+    background-image:url(./img/goku.jpg);
     width: 100vw;
     height: 90vh;
     background-size: cover;
@@ -67,6 +68,12 @@ main {
 
 main h1 {
     font-size: 3rem;
+    margin-left: 25%;
+    color: rgb(58, 57, 57);
+}
+
+h1{
+   font-size:  3rem;
     margin-left: 25%;
     color: rgb(58, 57, 57);
 }
