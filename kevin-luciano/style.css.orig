@@ -31,6 +31,8 @@ body{
     display: inline-block;
     margin-right: 20px;
     border: 1px solid #888585;
+<<<<<<< HEAD
+=======
   }
   
   .form-group {
@@ -52,4 +54,5 @@ body{
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 0;
+>>>>>>> 50e843875ab25ed6714c14d8a71c583573f9e9f5
   }

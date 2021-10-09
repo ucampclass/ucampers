@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
+=======
 
+>>>>>>> 50e843875ab25ed6714c14d8a71c583573f9e9f5
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +11,25 @@
     <title>Reto 5</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+<<<<<<< HEAD
+<body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="menu inicio"><a href="./Index.html">Inicio</a></li>
+                    <li class="menu nosotros"><a href="./nosotros.html">Nosotros</a></li>
+                    <li class="menu contacto"><a href="./contacto.html">Contacto</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>JAIME ALANIS</h1>
+
+        </main>
+    
+</body>
+=======
 
 <body>
     <header>
@@ -30,4 +52,5 @@
 
 </body>
 
+>>>>>>> 50e843875ab25ed6714c14d8a71c583573f9e9f5
 </html>
