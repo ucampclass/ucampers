@@ -14,8 +14,10 @@
 
 .header__nav {
   background: cornflowerblue;
+  width: 1400px;
   height: 20px;
   padding: 1%;
+  position: fixed;
 }
 
 .header_container {
@@ -29,11 +31,21 @@
 
 .hoja2 {
   width: 100%vw;
-  height: 650px;
-  display: flex;
-  flex-direction: row;
+  height: 700px;
 }
 
+.texto {
+  width: 100%vw;
+  height: 200px;
+  margin: 20px;
+}
+
+.fotografias {
+  width: 100%vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
 .hoja3 {
   width: 100%vw;
   height: 650px;
