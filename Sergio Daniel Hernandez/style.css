@@ -33,7 +33,7 @@ li {
 }
 
 a {
-    color: black;
+    color:black;
     text-align: center;
 }
 
@@ -68,16 +68,12 @@ main{
 main h1 {
     font-size: 3rem;
     margin-left: 25%;
-    color: black;
+    color:white;
 }
 
-h1{
-   font-size:  3rem;
-    margin-left: 25%;
-    color: black;
-}
 
-/*-----------------------------------------------------------------nosotros*/
+
+/*nosotros*/
 
 .main-nosotros {
     background-image: url(./img/erik-mclean-Ct1K6UR_U0w-unsplash.jpg);
@@ -131,7 +127,7 @@ h1{
     background-image: url(./img/shana-van-roosbroek-YQrV_l6zWoU-unsplash.jpg);
 }
 
-/*-----------------------------------------------------------------contacto*/
+/*contacto*/
 .main-contacto {
     background-image: url(./img/simon-lee-sWI76WS6OMc-unsplash.jpg);
     width: 100vw;
