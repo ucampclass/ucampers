@@ -35,3 +35,12 @@ body {
 .card a {
   text-decoration: none;
 }
+.jaime-alanis{
+  background-image: url(./Jaime_Alanis/img/goku.jpg);
+  background-size: cover;
+  background-position-y: center;
+  color:  rgb(2, 2, 53);
+}
+.jaime-alanis a{
+  color: rgb(2, 2, 53);
+}
