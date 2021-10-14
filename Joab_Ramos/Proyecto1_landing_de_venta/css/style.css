@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #fff;
+}
+
+.jumbotron {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #353535;
+    color: #fff;
+}
+
+.jumbotron .jumbotron-inner {
+    width: 70%;
+}
+
+.jumbotron .jumbotron-inner h2 {
+    font: size 23px;
+    font-weight: 700;
+}
+
+.jumbotron .jumbotron-inner p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.jumbotron .jumbotron-inner .jumbotron-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron .jumbotron-inner .jumbotron-btn .btn-one {
+    padding: 8px 14px;
+    border-radius: 5px;
+    background: #fff;
+    color: #353535;
+    margin-right: 10px;
+}
+
+.jumbotron .jumbotron-inner .jumbotron-btn .btn-two {
+    padding: 8px 14px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+
+}
+
+
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+.box1 {
+    background-color: blue;
+}
+.box2 {
+    background-color: blueviolet;
+}
+.box3 {
+    background-color: aqua;
+}
+.box4 {
+    background-color: aquamarine;
+}
+.box5 {
+    background-color: red;
+}
+.box6 {
+    background-color: yellow;
+}
+
+@media (max-width:500px){
+    body {
+        color: blue;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 500px){
+    .title {
+        color: green;
+    }
+}
+
+@media (orientation:portrait) {
+    .subtitle {
+        color: cyan;
+    }
+}
