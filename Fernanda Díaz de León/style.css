@@ -6,12 +6,20 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
+    height: 800px;
+  background-image: url("https://los40es00.epimg.net/los40/imagenes/2020/06/25/videojuegos/1593083478_869544_1593084233_gigante_normal.jpg");
+  background-size: cover;
+  background-size: 100rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .header_nav {
-    background-color: #143d64;
+    background-color: goldenrod;
     height: 70px;
 }
 
@@ -35,7 +43,7 @@ body {
 }
 
 .container_img {
-    max-width: 450px;  
+    max-width: 950px;  
     flex: 1;  
     margin-top: 50px;
     margin-bottom: 50px;
@@ -43,7 +51,7 @@ body {
    }
    
 .img {
-       width: 100%;
+       width: 60%;
    }
    
 .content {
@@ -56,11 +64,11 @@ body {
 .content_text {
        flex: 1;
        font-size: 24px;
-       color: rgb(75, 75, 75);
+       color: white;
        margin-bottom: 10px;
    }
 .buttoninit {
-       background-color: rgb(53, 53, 224);
+       background-color: goldenrod;
        border: none;
        border-radius: 40;
        color: #fff;
