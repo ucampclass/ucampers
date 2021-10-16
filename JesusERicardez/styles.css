@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav {
+  background: cornflowerblue;
+  width: 1400px;
+  height: 20px;
+  padding: 1%;
+}
+
+.header_container {
+  float: right;
+}
+
+.header__links {
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+.header__links:hover {
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  background-color: #1e90ff;
+}
+
+.bselec {
+  background-color: #1e90ff;
+}
+
+.hoja1 {
+  width: 100%vw;
+  height: 625px;
+  background-image: url(../JesusERicardez/img/Imagen1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hoja2 {
+  width: 100%vw;
+  height: 600px;
+}
+
+.texto {
+  width: 100%vw;
+  height: 200px;
+  margin: 20px;
+}
+
+.fotografias {
+  width: 100%vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hoja3 {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-contacto {
+  width: 30%;
+  height: 75%;
+  border: 3px black solid;
+}
+
+.fcontacto {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contenedor-texto {
+  margin: 20px 0px 20px;
+}
