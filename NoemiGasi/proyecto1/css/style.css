@@ -44,7 +44,7 @@ body{
     width: 100%;
 }
 .section{
-    background-image: url(/imagenes/tapete4.png);
+    background-image: url(/proyecto1/imagenes/tapete4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -169,19 +169,19 @@ body{
     margin: 15px;
  }
  .foto1{
-    background-image: url(/imagenes/imagen1.png);
+    background-image: url(/proyecto1/imagenes/imagen1.png);
     background-size: 376px 200px;
     background-repeat: no-repeat;
     background-clip: border-box;
  }
  .foto2{
-    background-image: url(/imagenes/imagen2.png);
+    background-image: url(/proyecto1/imagenes/imagen2.png);
     background-size: 376px 200px;
     background-repeat: no-repeat;
     background-clip: border-box;
  }
  .foto3{
-    background-image: url(/imagenes/imagen3.png);
+    background-image: url(/proyecto1/imagenes/imagen3.png);
     background-size: 376px 200px;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -212,7 +212,7 @@ body{
         color: brown;
       }
     .autor{
-    background-image: url(/imagenes/regiones.png);
+    background-image: url(/proyecto1/imagenes/regiones.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 50px;
@@ -245,7 +245,7 @@ body{
     position: relative;
     }
     .div_imagen3{
-    background-image: url(/imagenes/collage3.png);
+    background-image: url(/proyecto1/imagenes/collage3.png);
     background-repeat: no-repeat;
     background-size: 50%;
     background-size: contain;
@@ -253,7 +253,7 @@ body{
     transform-style: preserve-3d;
     }
     .div_imagen3:hover{
-    background-image: url(/imagenes/alternativa.png);
+    background-image: url(/proyecto1/imagenes/alternativa.png);
     }
     .div_parrafo{
         position: absolute;
