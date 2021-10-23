@@ -12,7 +12,9 @@ console.log(arreglo);
 arreglo.push('Luis');
 arreglo.push ('Toño');
 arreglo.push('Juan');
-arreglo.push(5);*/
-arreglo.unshift('Toño');
+arreglo.push(5);
+arreglo.unshift('Toño');*/
+
+arreglo.shift('Daniel');
 
 console.log(arreglo);
