@@ -1,5 +1,8 @@
 const arreglo = ['Daniel','Juan','Pepe',15,true,'Toño'];
 
+const nuevosValores = arreglo.map((valores) => valores);
+console.log (nuevosValores);
+
 /*let indice =1;
 
 if(indice <2){
@@ -19,7 +22,7 @@ for(let i=0; i <3; i++) {
 }
 
 console.log(arreglo,length);
-console.log(arreglo);*/
+console.log(arreglo);
 
 function saluda(nombre, numero) {
     console.log('Hola mundo' + nombre);
@@ -34,8 +37,8 @@ let meLlamo = (nombre) =>{
     return valor1 + valor2;
 }
 
-console.log(sumarNumeros(2, 5));*/
+console.log(sumarNumeros(2, 5));
 
 arreglo.forEach(function (valores) {
     console.log(valores);
-});
+});*/
