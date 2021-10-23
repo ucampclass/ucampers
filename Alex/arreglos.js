@@ -1,7 +1,12 @@
-const arreglo = ['Daniel','Juan','Pepe',15,true,'Toño'];
+const valores = [1,2,3,4,5,6,7,8,9,10];
 
-let nombre ='daniel';
-console.log(nombre.toUpperCase());
+const resultado = valores.filter((numero)=>numero <6);
+console.log(resultado);
+//let nombre ='daniel';
+//console.log(nombre.toUpperCase());
+
+//const nuevosValores = nombres.map((nom) => nom *21);
+//console.log(nuevosValores);
 
 //const nuevosValores = arreglo.map((valores) => valores);
 //console.log (nuevosValores);
