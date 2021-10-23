@@ -1,7 +1,10 @@
 const arreglo = ['Daniel','Juan','Pepe',15,true,'Toño'];
 
-const nuevosValores = arreglo.map((valores) => valores);
-console.log (nuevosValores);
+let nombre ='daniel';
+console.log(nombre.toUpperCase());
+
+//const nuevosValores = arreglo.map((valores) => valores);
+//console.log (nuevosValores);
 
 /*let indice =1;
 
