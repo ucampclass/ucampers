@@ -16,7 +16,13 @@
 // incorpora(' observen', ' sin orden');
 // incorpora(' caigan en ello', ' aleatorio');
 
-function sumarNumeros (valor1, valor2){
+//function sumarNumeros (valor1, valor2){
+//    return valor1 + valor2;
+//}
+//console.log(sumarNumeros(2,5));
+
+const sumarNumeros = (valor1, valor2)=> {
     return valor1 + valor2;
 }
-console.log(sumarNumeros(2,5));
+
+console.log(sumarNumeros(1,5));
