@@ -15,6 +15,9 @@ arreglo.push('Juan');
 arreglo.push(5);
 arreglo.unshift('Toño');
 arreglo.shift('Daniel');
-arreglo.splice(2,1);*/
+arreglo.splice(2,1);
 arreglo.splice(3,0,'Toño');
+console.log(arreglo);*/
+console.log(arreglo.length);
+arreglo.push('Luis');
 console.log(arreglo);
