@@ -8,10 +8,11 @@ console.log(nombre1);
 console.log(nombre2);
 console.log(nombre3);
 arreglo[0]='Luis';
-console.log(arreglo);*/
+console.log(arreglo);
 arreglo.push('Luis');
 arreglo.push ('Toño');
 arreglo.push('Juan');
-arreglo.push(5);
+arreglo.push(5);*/
+arreglo.unshift('Toño');
 
 console.log(arreglo);
