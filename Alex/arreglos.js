@@ -1,8 +1,16 @@
  const nombres = ['alberto', 'paty', 'Jose', 'daniel', 'luis', 'antonio', 'Luis', 'paty', 'luis'];
- const nombreMayusculas =[];
+ const nombreMayusculas = nombres.map((nombres)=> nombres.toUpperCase());
+console.log(nombreMayusculas);
 
- //nombres.forEach((elemento, indice)=>{
-// });
+ let nombre = 'mayúsculas';
+ console.log(nombre.toUpperCase());
+
+console.log('Valores del arreglo original:')
+nombres.forEach((nom)=>{
+    console.log(nom);
+ });
+
+
  //declarar la función
  // function nombredelafuncion(){}
 
@@ -21,8 +29,8 @@
 //}
 //console.log(sumarNumeros(2,5));
 
-const sumarNumeros = (valor1, valor2)=> {
-    return valor1 + valor2;
-}
+//const sumarNumeros = (valor1, valor2)=> {
+//    return valor1 + valor2;
+//}
 
-console.log(sumarNumeros(1,5));
+//console.log(sumarNumeros(1,5));
