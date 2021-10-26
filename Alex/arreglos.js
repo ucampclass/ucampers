@@ -1,3 +1,3 @@
-const valores = [1,2,3,4,5,6,7,8,9,10];
-const resultado = valores.filter ((numero) => numero < 6);
+const nombres = ['alberto', 'paty', 'Jose', 'daniel', 'luis', 'antonio', 'Luis', 'paty', 'luis'];
+const resultado = nombres.filter ((nom, indice) => nom === 'paty');
 console.log (resultado);
