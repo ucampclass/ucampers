@@ -1,3 +1,3 @@
-const nombres = [3399,3399, 3399,3399];
-const nuevosValores = nombres.map ( (nom) => nom * 1.05);
-console.log (nuevosValores);
+const valores = [1,2,3,4,5,6,7,8,9,10];
+const resultado = valores.filter ((numero) => numero < 6);
+console.log (resultado);
