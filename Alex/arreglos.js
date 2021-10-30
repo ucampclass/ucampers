@@ -1,3 +1,12 @@
-const nombres = ['alberto', 'paty','paty isela', 'Jose', 'daniel', 'luis', 'antonio', 'Luis', 'paty', 'luis'];
-const resultado = nombres.filter ((nom, indice) => nom.includes('paty'));
-console.log (resultado);
+let country = {
+    name: "México",
+    language: "Español",
+    getPopulation: function(){
+      return `En ${this.name}, se hablan más de 67 lenguas además del ${this.language}`
+    }
+  }
+  
+ console.log(country)
+ console.log(country.name)
+ console.log(country.language)
+ console.log(country.getPopulation())
