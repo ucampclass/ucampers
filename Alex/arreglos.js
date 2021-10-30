@@ -1,15 +1,11 @@
-let nombreObjeto = new Object()
-
-nombreObjeto.nombre = "Joe"
-nombreObjeto.apellido = "Doe"
-nombreObjeto.edad = 35
-
-nombreObjeto.saludar = function(){
-  return `Hola. Un gusto.`
+let auto ={
+    marca: "Toyota",
+    modelo: "Corolla",
+    año:'2019',
+    color: "Rojo",
 }
 
-console.log(nombreObjeto.nombre);
-console.log(nombreObjeto.edad);
-
-console.log(nombreObjeto.apellido);
-console.log(nombreObjeto.saludar());
+console.log (auto.marca);
+console.log (auto.modelo);   
+console.log (auto.año);
+console.log (auto.color);
