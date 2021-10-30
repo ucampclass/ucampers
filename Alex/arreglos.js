@@ -1,11 +1,16 @@
-const curso = {
-nombre : 'JavaScript',
-cursandoActualmente : true,
-nombreUcamper: 'Alex',
-expectativa: 'Asistir con actividades a los temas de trabaajr con objetos'
+const escuela = {
+    nombre: 'Escuela del Bajío',
+    turno:'mixto',
+    materiaPorMaestro: {
+        espanol: 'Juan García',
+        matematicas:'Alejandra Méndez',
+        historia:'Yesica Valdez'
+    }
+
 }
 
-console.log(curso.nombre);
-console.log(curso.cursandoActualmente);
-console.log(curso.nombreUcamper);
-console.log(curso.expectativa);
+console.log(escuela.nombre);
+console.log(escuela.turno);
+console.log(escuela.materiaPorMaestro.espanol);
+console.log(escuela.materiaPorMaestro.matematicas);
+console.log(escuela.materiaPorMaestro.historia);
