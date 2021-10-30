@@ -1,11 +1,11 @@
-let auto ={
-    marca: "Toyota",
-    modelo: "Corolla",
-    año:'2019',
-    color: "Rojo",
+const curso = {
+nombre : 'JavaScript',
+cursandoActualmente : true,
+nombreUcamper: 'Alex',
+expectativa: 'Asistir con actividades a los temas de trabaajr con objetos'
 }
 
-console.log (auto.marca);
-console.log (auto.modelo);   
-console.log (auto.año);
-console.log (auto.color);
+console.log(curso.nombre);
+console.log(curso.cursandoActualmente);
+console.log(curso.nombreUcamper);
+console.log(curso.expectativa);
