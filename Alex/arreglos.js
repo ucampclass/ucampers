@@ -1,23 +1,20 @@
-const bootcamp = {
-    nombre: 'Ucamp',
-    tipo: 'fullstack',
-    modulos: [
-        {nombre: 'css', cursado: true},
-        {nombre: 'javascript', cursado: true},
-        {nombre: 'react', cursado: false}
-    ],
-    saludar: (nombre) => {
-        console.log(`Hola soy ${nombre}`);
-    }
-}
+const escuela = {
+    nombre: 'Escuela del Bajío',
+    turno:'mixto',
+    materiaPorMaestro :{
+        espanol: 'Juan García',
+        matematicas: 'Pedro Pérez',
+        historia: 'José Ramírez',
+    },
+};
+const {nombre,turno} = escuela;
+
+console.log(nombre);
+console.log(turno);
+
+console.log(escuela.materiaPorMaestro.espanol);
 
 
-console.log (bootcamp.nombre);
-console.log (bootcamp.tipo);
-console.log (bootcamp.modulos[0].nombre);
-console.log (bootcamp.modulos[0].cursado);
-console.log (bootcamp.saludar('Alex'));
-
-bootcamp.modulos.forEach(modulo => {
-    console.log(modulo.nombre);
-});
+ console.log(escuela.nombre);
+ console.log(escuela.turno);
+ console.log(escuela.materiaPorMaestro.espanol);
