@@ -1,20 +1,44 @@
-const escuela = {
-    nombre: 'Escuela del Bajío',
-    turno:'mixto',
-    materiaPorMaestro :{
-        espanol: 'Juan García',
-        matematicas: 'Pedro Pérez',
-        historia: 'José Ramírez',
-    },
-};
-const {nombre,turno} = escuela;
+class Persona {
+nombre;
+apellidoPaterno;
+apellidoMaterno;
+edad;
+sexo;
+estadoCivil;
+}
 
-console.log(nombre);
-console.log(turno);
+class estudiante {
+    nombre;
+apellidoPaterno;
+apellidoMaterno;
+edad;
+sexo;
+estadoCivil;
 
-console.log(escuela.materiaPorMaestro.espanol);
+grado;
+materias;
+matricula;
+promedio
+}
 
+class profesor {
+    nombre;
+apellidoPaterno;
+apellidoMaterno;
+edad;
+sexo;
+estadoCivil;
 
- console.log(escuela.nombre);
- console.log(escuela.turno);
- console.log(escuela.materiaPorMaestro.espanol);
+profesion;
+materiaImpartida;
+horarios;
+ingresoMensual;
+
+saludar(){}
+
+}
+
+const estudianteJuan = new estudiante();
+estudianteJuan.nombre = "Juan";
+
+estudianteJuan.saludar ();
