@@ -5,6 +5,7 @@
   }
 
 body {
+  height: 100vh;
   background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
   background-size: cover;
   background-attachment: fixed;
@@ -20,6 +21,10 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   color: #fff;
   border: 5px solid #090979;
   position: absolute;
