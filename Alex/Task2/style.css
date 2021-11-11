@@ -26,6 +26,11 @@ body {
   background-repeat: no-repeat;
   background-image: url(./img/bg1.png);
 }
+
+.box {
+  
+}
+
 .logo {
   height: 100vh;
   width: 100%;
