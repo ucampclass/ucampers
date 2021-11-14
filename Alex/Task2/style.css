@@ -20,7 +20,7 @@ body {
 }
 
 .logo_header {
-  height: 100vh;
+  height: 7rem;
   width: 100%;
   background-size:50px;
   background-repeat: no-repeat;
@@ -28,11 +28,13 @@ body {
 }
 
 .container {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-  height: 100vh;
+  height: 7rem;
   width: 100%;
   background-size: 100px;
   background-repeat:no-repeat;

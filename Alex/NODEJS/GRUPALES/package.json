@@ -1,0 +1,14 @@
+{
+  "name": "grupales",
+  "version": "1.0.0",
+  "description": "Edwin, Gerardo, Alejandro",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Edwin",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}

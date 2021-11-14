@@ -48,7 +48,7 @@ if (id !== "") {
         memo: memo}
     }
     
-  //  var lista = [];
+    var lista = [];
     
     localStorage.setItem("prospecto", JSON.stringify(objprospecto));
     //refresca la pantalla
