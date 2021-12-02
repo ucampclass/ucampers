@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cards {
+  width: 90%;
+  margin: 40px auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1 300px;
+  box-shadow: 0px -2px 12px 0px rgba(159, 159, 159, 0.75);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 1rem;
+}
+
+.card a {
+  text-decoration: none;
+}
+.jaime-alanis{
+  background-image: url(./Jaime_Alanis/img/goku.jpg);
+  background-size: cover;
+  background-position-y: center;
+  color:  rgb(2, 2, 53);
+}
+.jaime-alanis a{
+  color: rgb(2, 2, 53);
+}

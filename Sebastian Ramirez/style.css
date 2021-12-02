@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+
+    font-weight: 600;
+    text-align: center;
+
+}
+.p1 {
+
+    
+    border: 5px solid blue;
+    border-radius: 10pc;
+    background-color: rgb(111, 155, 170);
+    width: 150px;
+    height: 50px;
+   
+
+}
+
+
+.s1 {
+height: 100vh;
+width: 100pc;
+background-image: url(../img/servers.jpg);
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+text-align: center;
+}
+
+.titulo_sec{
+    padding: 30px;
+    margin-top: calc(50vh - 60px);
+    font-weight: 200;
+    display: inline-block;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.s2{
+    text-align: center;
+    padding: 75px;
+}
+
+.p2{
+
+    text-align: center;
+}
+
+
+.s3{
+    height: 100vh;
+    width: 100pc;
+    text-align: center;
+    background-image: url(../img/servers2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.titulo_sec2{
+
+    padding: 30px;
+    color: blanchedalmond;
+    text-align: center;
+    display:inline-block;  
+    margin-top: calc(50vh - 60px);  
+    font-weight: 200;  
+}
+
+.s5{
+    height: 100vh;
+    width: 100pc;
+    background-image: url(../img/render.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+
+.titulo_sec3{
+    padding: 30px;
+    
+   margin-top: calc(50vh - 60px);
+    font-weight: 200;
+    text-align: center;
+    display: inline-block; 
+    color: red;
+    margin-top: calc(50vh - 60px);
+}
+
+li{
+    float: left;
+}
+
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid grey ;
+
+}
+
+li a:hover {
+    background-color: #111;
+  }
+  /*comentario*/
+  .desp {
+      float: right;
+    }
+
+    .s6 {
+        height: 20vh;
+        width: 100pc;
+        padding-top: 8vh;
+        background-color: powderblue;
+        text-align: center;
+        }
+
+
+.s7{
+            height: 100vh;
+            width: 100pc;
+            background-image: url(../img/fondo.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+        }
+
+        form {
+         padding-top: 5vh;
+            color: powderblue;
+        }
