@@ -1,7 +1,12 @@
+import Saludar from "./components/Saludar";
+import Texto from "./components/Texto";
+import Imagen from "./components/Imagen";
 function App() {
   return <div>
-    <h1>Hola mundo desde React</h1>
-  </div>;
+    <Saludar />
+    <Texto />
+    <Imagen />
+    </div>;
 }
 
 export default App;
