@@ -6,6 +6,7 @@ function App() {
     <Saludar />
     <Texto />
     <Imagen />
+    <Imagen />
     </div>;
 }
 
