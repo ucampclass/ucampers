@@ -10,12 +10,12 @@ import { Imprimir } from './components/Imprimir';
 function App() {
   return (
     <div>
-    <Saludar />
+   {/* <Saludar />
     <Texto />
     <Imagen />
     <Parrafo />
     <Boton />
-    <Estilos />
+    <Estilos /> */}
     <Imprimir />
     </div>
   );
