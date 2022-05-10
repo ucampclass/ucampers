@@ -1,8 +1,19 @@
-const seleccionarPorId = document.getElementById('titulo');
+//const seleccionarPorId = document.getElementById('titulo');
 
-seleccionarPorId.classList.add('color');
+//seleccionarPorId.classList.add('color');
 //console.log (seleccionarPorId);
 //console.log (seleccionarPorId.attributes);
 
-const PorId = document.getElementById('descansa');
-PorId.classList.add('versus');
+//const PorId = document.getElementById('descansa');
+//PorId.classList.add('versus');
+
+//const porClase = document.getElementsByClassName ('texto');
+//console.log (porClase);
+
+const porID = document.getElementById ('titulo');
+console.log (porID.className);
+console.log (porID.innerText);
+
+const Selector = document.querySelector ('#texto');
+console.log (Selector.className);
+console.log (Selector.innerText);
