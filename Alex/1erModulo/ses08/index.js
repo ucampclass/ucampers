@@ -14,6 +14,10 @@ const porID = document.getElementById ('titulo');
 console.log (porID.className);
 console.log (porID.innerText);
 
+setTimeout (() => {
+    porID.classList.add ('color');
+}, 5000);
+
 const Selector = document.querySelector ('#texto');
 console.log (Selector.className);
 console.log (Selector.innerText);
